@@ -1,0 +1,22 @@
+{
+    "name": "noventaynueveminutos/module-prueba",
+    "description": "NoventaynueveMinutos",
+    "type": "magento2-module",
+    "license": "99Minutos",
+    "authors": [
+        {
+            "email": "ricardo.hernandez@99minutos.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "NoventaynueveMinutos\\Prueba\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

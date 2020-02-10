@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<carriers>
+			<noventaynueveminutos>
+				<model>NoventaynueveMinutos\Prueba\Model\Carrier\NoventaynueveMinutos</model>
+				<active>1</active>
+				<title>NoventaynueveMinutos</title>
+				<name>Same day</name>
+				<price>70.00</price>
+				<specificerrmsg>Entrega al dia siguiente de su pedido, El costo aumenta $10 segun el tamaño del paquete</specificerrmsg>
+				<sallowspecific>1</sallowspecific>
+			</noventaynueveminutos>
+		</carriers>
+	</default>
+</config>
+
+ 
