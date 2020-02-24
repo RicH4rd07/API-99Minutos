@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <customshipping>
+                <active>1</active>
+                <title>99Minutos</title>
+                <name>Nextday</name>
+                <shipping_cost>85</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>15</sort_order>
+                <model>Vendor\CustomShipping\Model\Carrier\Customshipping</model>
+            </customshipping>
+        </carriers>
+    </default>
+</config>
