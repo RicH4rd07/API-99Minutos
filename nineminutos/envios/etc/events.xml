@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-    <event name="catalog_controller_product_view">
-        <observer name="nineminutosProductData" instance="nineminutos\envios\Observer\Product\Data" />
+    <event name="checkout_submit_all_after">
+        <observer name="place_order_after" instance="nineminutos\envios\Observer\Orderplaceafter" />
     </event>
 </config>
