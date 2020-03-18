@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<event name="sales_order_save_before">
+    <observer name="order_save_after" instance="MyCompany\MyModule\Observer\OrderSaveAfter" />
+</event>
