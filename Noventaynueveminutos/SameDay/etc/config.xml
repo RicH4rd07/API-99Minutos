@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+<default>
+<carriers>
+<Noventaynueveminutos_SameDay>
+<active>1</active>
+<model>Noventaynueveminutos\SameDay\Model\Carrier\Customshipping</model>
+<price>90</price>
+<title>99 minutos - SameDay</title>
+<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+</Noventaynueveminutos_SameDay>
+</carriers>
+</default>
+</config>

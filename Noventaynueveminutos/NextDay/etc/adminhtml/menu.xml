@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+      <add id="Noventaynueveminutos_NextDay::envios" title="99 minutos" translate="title" module="Noventaynueveminutos_NextDay" sortOrder="50" resource="Noventaynueveminutos_NextDay::envios"/>
+      <add id="Noventaynueveminutos_NextDay::envios_trackingid" title="Tracking Id" translate="title" module="Noventaynueveminutos_NextDay" parent="Noventaynueveminutos_NextDay::envios" sortOrder="10" action="noventaynueveminutos/trackingid" resource="Noventaynueveminutos_NextDay::envios"/>
+    </menu>
+</config>

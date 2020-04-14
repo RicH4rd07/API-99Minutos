@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
+<system>
+<section id="carriers" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+<group id="Noventaynueveminutos_NextDay" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>99 minutos- NextDay</label>
+
+<field id="active" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
+<label>Enabled</label>
+<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+</field>
+
+<field id="apikey" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>ApiKey</label>
+</field>
+
+<field id="notes" translate="label" type="text" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Notas</label>
+</field>
+
+<field id="cahsOnDelivery" translate="label" type="select" sortOrder="7" showInDefault="1" showInWebsite="1" showInStore="0">
+<label>¿Se paga en efectivo?</label>
+<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+</field>
+
+<field id="SecurePackage" translate="label" type="select" sortOrder="8" showInDefault="1" showInWebsite="1" showInStore="0">
+<label>¿Está asegurado?</label>
+<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+</field>
+
+<field id="seller_name" translate="label" type="text" sortOrder="11" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Nombre del Vendedor</label>
+</field>
+
+<field id="lastname" translate="label" type="text" sortOrder="12" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Apellido del Vendedor</label>
+</field>
+
+<field id="emailSender" translate="label" type="text" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Correo Electrónico del Vendedor</label>
+</field>
+
+<field id="phoneSender" translate="label" type="text" sortOrder="14" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Teléfono del Vendedor</label>
+</field>
+
+<field id="addressOrigin" translate="label" type="text" sortOrder="15" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Dirección de Origen (calle, número, colonia y código postal)</label>
+</field>
+
+<field id="numberOrigin" translate="label" type="text" sortOrder="16" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Número de Origen</label>
+</field>
+
+<field id="codePostalOrigin" translate="label" type="text" sortOrder="17" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Código Postal de Origen</label>
+</field>
+
+<field id="price" translate="label" type="text" sortOrder="18" showInDefault="1" showInWebsite="1" showInStore="0">
+<label>Costo de envío</label>
+<validate>validate-number validate-zero-or-greater</validate>
+</field>
+
+
+</group>
+</section>
+</system>
+</config>

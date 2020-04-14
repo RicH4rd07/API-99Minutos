@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+<default>
+<carriers>
+<Noventaynueveminutos_NextDay>
+<active>1</active>
+<apikey>dc60c3dc45a9b365a53d93b49a42c823bb33970a</apikey>
+<notes> ... </notes>
+<seller_name>Enrique</seller_name>
+<lastname>Alfaro</lastname>
+<emailSender>prueba@prueba.com</emailSender>
+<phoneSender>5510993399</phoneSender>
+<addressOrigin>Mina 116, Cuauhtémoc, 06300</addressOrigin>
+<numberOrigin>116</numberOrigin>
+<codePostalOrigin>06300</codePostalOrigin>
+<price>85</price>
+<sallowspecific>0</sallowspecific>
+<model>Noventaynueveminutos\NextDay\Model\Carrier\Customshipping</model>
+<title>99 minutos - Nextday</title>
+<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+</Noventaynueveminutos_NextDay>
+</carriers>
+</default>
+</config>
